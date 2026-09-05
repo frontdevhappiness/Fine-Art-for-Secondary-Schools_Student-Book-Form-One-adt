@@ -1,7 +1,14 @@
 [
   {
-    "section_id": "pg001_sec001",
+    "section_id": "cover_front_sec001",
     "href": "index.html",
+    "title": "Front Cover",
+    "chapter_id": "cover_front_sec001",
+    "level": 1
+  },
+  {
+    "section_id": "pg001_sec001",
+    "href": "pg001_sec001.html",
     "title": "Fine Art",
     "chapter_id": "pg001_n0002",
     "level": 1
@@ -908,5 +915,12 @@
     "title": "Bibliography",
     "chapter_id": "pg159_n0005",
     "level": 2
+  },
+  {
+    "section_id": "cover_back_sec001",
+    "href": "cover_back_sec001.html",
+    "title": "Back Cover",
+    "chapter_id": "cover_back_sec001",
+    "level": 1
   }
 ]
