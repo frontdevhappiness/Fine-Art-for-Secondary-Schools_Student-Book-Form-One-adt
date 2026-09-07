@@ -6,10 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Fine Art for Secondary Schools: Student’s Book Form One — Front Cover</title>
     <meta name="title-id" content="cover_front_sec001" />
-    <meta name="page-section-id" content="0" />
+    <meta name="page-section-id" content="1" />
     <link href="./content/tailwind_output.css" rel="stylesheet">
     <link href="./assets/libs/fontawesome/css/all.min.css" rel="stylesheet">
     <link href="./assets/fonts.css" rel="stylesheet">
+    <style>
+        /* Keep the cover within the viewport, with room for the reader dock. */
+        main.flex {
+            min-height: calc(100svh - 8rem);
+            padding: 1rem;
+        }
+        #content section {
+            min-height: 0;
+        }
+        #content img {
+            width: auto;
+            height: auto;
+            max-width: min(100%, 680px);
+            max-height: min(86svh, calc(100svh - 7rem), 880px);
+            margin-inline: auto;
+        }
+    </style>
 </head>
 
 <body class="min-h-screen bg-neutral-950">
