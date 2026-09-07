@@ -189,6 +189,8 @@
       <file href="cover_back_sec001.html"/>
       <file href="images/cover_front.png"/>
       <file href="images/cover_back.png"/>
+      <file href="content/i18n/en-GB/audio/cover_front_im001.mp3"/>
+      <file href="content/i18n/en-GB/audio/cover_back_im001.mp3"/>
     </resource>
   </resources>
 
